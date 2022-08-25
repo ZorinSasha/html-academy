@@ -29,7 +29,7 @@ img, ul, blockquote, button, p {
 }
 
 .section__main {
-    background-image: url(img/main_picture.png);
+    background-image: url(../img/main_picture.png);
     background-repeat: no-repeat;
     background-position: center;
 }
