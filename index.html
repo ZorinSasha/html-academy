@@ -19,55 +19,92 @@
                         <p class="header__logo-name">SCANDI</p>                        
                         <nav>
                             <ul class="nav__items">
-                                <li class="text nav__item">О компании</li>
-                                <li class="text nav__item">Портфолио</li>
-                                <li class="text nav__item">Команда</li>
-                                <li class="text nav__item">Как мы работаем</li>
-                                <li class="text nav__item">Отзывы клиентов</li>
-                                <li class="text nav__item">Оставить заявку</li>
+                                <li class="nav__item">
+                                    <a href="#about" class="nav__link">О компании</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#works" class="nav__link">Портфолио</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#team" class="nav__link">Команда</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#job" class="nav__link">Как мы работаем</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#rewiews" class="nav__link">Отзывы клиентов</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="#submit" class="nav__link">Оставить заявку</a>
+                                </li>
+                                <li class="nav__item"><a href="+79818574624" class="nav__phone">+7 (981) 857-46-24</a></li>
                             </ul>
                         </nav>
-                        <a href="+79818574624" class="text nav__phone">+7 (981) 857-46-24</a>
                     </div>
                 </header>
                 <div  class="main__information">
-                    <h1 class="text main__caption">Поможем сделать вашу квартиру уютнее</h1>
-                    <p class="text main__text">Подбираем текстиль, мебель и аксессуары
-                        под ваш интерьер, находим магазины
-                        и помогаем организовать доставку </p>
-                    <a href="main-link" class="text main__link">Оставить заявку</a>
+                    <a id="about"></a>
+                    <h1 class="main__caption">Поможем сделать вашу квартиру уютнее</h1>
+                    <p class="main__text">Подбираем текстиль, мебель и аксессуары<br>
+                        под ваш интерьер, находим магазины<br>
+                        и помогаем организовать доставку 
+                    </p>
+                    <p class="p__main-submit"><a href="#!" class="main__submit">Оставить заявку</a></p>
+
                 </div>
             </div>
         </section>
-        <section class="section__table">
+        <section class="section__about">
+            <a id="works"></a>
             <div class="wrapper">
                 <div class="about">
-                    <h2 class="text about__caption">О НАС</h2>
-                    <img src="img/table.png" alt="Пример интерьерного стола." class="about__img">
-                    <p class="text about__text">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  что по-настоящему вдохновляет дизайнеров нашей студии. 
-                        Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:
-                        « Да! Это именно то, что действительно достойно моего дома!»</p>
+                    <h2 class="about__caption">О НАС</h2>
+                    <div class="about__block-1">
+                            <img src="img/table.png" alt="Пример интерьерного стола." class="about__img">
+                        <div class="about__text">
+                            <p class="about__p">Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. 
+                            Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,  
+                            что по-настоящему вдохновляет дизайнеров нашей студии.
+                            </p>
+                            <br>
+
+                            <p class="about__p">Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать:<br>
+                            «Да! Это именно то, что действительно достойно моего дома!»
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="about__skillst">
-                    <ul class="about__skills-items">
-                        <li class="about__skills-item">5</li>
-                        <li class="about__skills-item">лет опыта</li>
-                        <li class="about__skills-item">100</li>
-                        <li class="about__skills-item">проектов</li>
-                        <li class="about__skills-item">10</li>
-                        <li class="about__skills-item">наград</li>
-                    </ul>
+        </section>
+        <section class="section__about-2">
+                <div class="about__block-2">
+                    <div class="wrapper">
+                        <div class="about__block-2">
+                            <div class="block-2__container">
+                                <p class="container__number">5</p>
+                                <p class="container__text">лет опыта</p>
+                            </div>
+                            <div class="block-2__container">
+                                <p class="container__number">100</p>
+                                <p class="container__text">проектов</p>
+                            </div>
+                            <div class="block-2__container">
+                                <p class="container__number">10</p>
+                                <p class="container__text">наград</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="works">
+            <a id="works"></a>
             <div class="wrapper">
-                <h2 class="text works__caption">Наши работы</h2>
+                <h2 class="works__caption-main">Наши работы</h2>
                 <ul class="works__items">
                     <li class="work__item">
                         <img src="img/our_job_one.png" alt="Пример рабоыт 1." class="works__img">
                         <div class="works__discription">
-                            <h3 class="works__caption">Квартира-студия 30 кв.м.</h3>
+                            <h3 class="works__caption">Квартира-студия<br> 30 кв.м.</h3>
                             <div class="works__text">В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
                                 на отсылках к природе и сделали ребятам уютный интерьер, отсылающий к виллам островов Бали.
                             </div>
@@ -77,97 +114,130 @@
                     <li class="work__item"><img src="img/our_job_three.png" alt="Пример рабоыт 3."></li>
                     <li class="work__item"><img src="img/our_job_four.png" alt="Пример рабоыт 4."></li>
                 </ul>
-                <a href="" class="text works__more-link">Смотреть еще
-                    <img src="img/see_more_arrow.svg" alt="Стрелка вправо." class="text more-link__arrow">
+                <a href="!#" class="works__more-link">Смотреть еще
+                    <img src="img/see_more_arrow.svg" alt="Стрелка вправо." class="more-link__arrow">
                 </a>
             </div>
         </section>
         <section class="team__section">
+            <a id="team"></a>
             <div class="wrapper">
-                <h2 class="text team__caption">Команда</h2>
+                <h2 class="team__caption">Команда</h2>
                 <div class="team">
                     <div class="team__container-1">
                         <img src="img/team_members_mariya.png" alt="Участник команды Мария." class="team__img">
-                        <p class="text team__info">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
+                        <p class="team__info">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
                             и помогает сделать вашу квартиру красивой и уютной.</p>
                     </div>
                     <div class="team__container-1">
                         <img src="img/team_members_sasha.png" alt="Участник команды Саша." class="team__img">
-                        <p class="text team__info">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
+                        <p class="team__info">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
                             и ответит на все вопросы.</p>
                     </div>
                     <div class="team__container-1">
                         <img src="img/team_members_katya.png" alt="Участник команды Катя." class="team__img">
-                        <p class="text team__info">Катя тоже занимается дизайном.
+                        <p class="team__info">Катя тоже занимается дизайном.
                             Она всегда находит общий язык
                             с клиентами и точно знает,
                             как обустроить дом так, чтобы вам понравилось.</p>
                     </div>
                 </div>
-                <h2 class="text team__caption">КАК МЫ РАБОТАЕМ</h2>
+                <a id="job"></a>
+                <h2 class="team__caption-1">КАК МЫ РАБОТАЕМ</h2>
                 <div class="team__job">
                     <div class="team__container-2">
-                        <p class="team__ellipse">1</p>
-                        <p class="text team__description-ellipse">Знакомимся, выезжаем
-                            на объект, утверждаем концепцию, подписываем договор.</p>
+                        <div class="team__ellipce">
+                            <p class="team__num">1</p>
+                        </div>
+                        <p class="team__description-ellipse">Знакомимся, выезжаем
+                            на объект, утверждаем концепцию, подписываем договор.
+                        </p>
                     </div>
                     <div class="team__container-2">
-                        <p class="team__ellipse">2</p>
-                        <p class="text team__description-ellipse">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
-                            визуализацию.</p>
+                        <div class="team__ellipce">
+                            <p class="team__num">2</p>
+                        </div>
+                        <p class="team__description-ellipse">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                            визуализацию.
+                        </p>
                     </div>
                     <div class="team__container-2">
-                        <p class="team__ellipse">3</p>
+                        <div class="team__ellipce">
+                            <p class="team__num">3</p>
+                        </div>
                         <p class="text team__description-ellipse">Находим нужные магазины, помогаем с доставкой
-                            и оплатой товаров.</p>
+                            и оплатой товаров.
+                        </p>
                     </div>
                     <div class="team__container-2">
-                        <p class="team__ellipse">4</p>
-                        <p class="text team__description-ellipse">Воплощаем проект в жизнь:
-                            расставляем мебель и цветы, вешаем шторы, находим места для мелочей</p>
+                        <div class="team__ellipce">
+                            <p class="team__num">4</p>
+                        </div>
+                        <p class="team__description-ellipse">Воплощаем проект в жизнь:
+                            расставляем мебель и цветы, вешаем шторы, находим места для мелочей
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
         <article class="reviews">
+            <a id="rewiews"></a>
             <div class="wrapper">
-                <h2 class="text reviews__caption">ОТЗЫВЫ</h2>
-                <blockquote class="text reviews__q">«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.
-
-                    Работа шла быстро, было очень приятно общаться и взаимодействовать
-                    с сотрудниками. Не ожидала, что это будет так легко!
-                    
-                    Буду советовать и своим друзьям к вам обращаться!»</blockquote>
-                <cite class="text reviews__author">АННА БЕЛОВСКАЯ</cite>
-                <img src="img/reviews__one.png" alt="Пример готово интерьера от клиента." class="rewiews__img-one">
-                <img src="img/reviews__two.png" alt="Второй пример готово интерьера от клиента." class="rewiews__img-two">
-                <button><img src="img/reviews__left.svg" alt="Стрелка влево."></button>
-                <button><img src="img/reviews__right.svg" alt="Стрека вправо."></button>
+                <h2 class="reviews__caption">ОТЗЫВЫ</h2>
+                <div class="slider">
+                    <button class="rewiews__button"><img src="img/reviews__left.svg" alt="Стрелка влево." class="rewiews__button-img"></button>
+                    <div class="reviews__text">
+                        <div class="reviews__text-blockquote">
+                            <blockquote class="reviews__q">«Восторг! Спасибо, за комфортную жизнь. 
+                                Очень рада, что выбрала вашу студию для украшения своего дома.
+                                <br>
+                                <br>
+                                Работа шла быстро, было очень приятно общаться и взаимодействовать
+                                с сотрудниками. Не ожидала, что это будет так легко! 
+                                <br>
+                                <br>
+                                Буду советовать и своим друзьям к вам обращаться!»
+                            </blockquote>
+                            <cite class="reviews__author">АННА БЕЛОВСКАЯ</cite>
+                        </div>
+                        
+                    </div>
+                    <div class="rewiews__img">
+                        <img src="img/reviews__one.png" alt="Пример готово интерьера от клиента." class="rewiews__img-one">
+                        <img src="img/reviews__two.png" alt="Второй пример готово интерьера от клиента." class="rewiews__img-two">
+                    </div>
+                    <button class="rewiews__button"><img src="img/reviews__right.svg" alt="Стрека вправо." class="rewiews__button-img"></button>
+                </div>
             </div>
         </article>
         <section class="request">
+            <a id="submit"></a>
             <div class="wrapper">
-                <div class="request__div">
-                    <form action="#" class="form__request">
-                        <h2 class="request__cation">ОСТАВИТЬ ЗАЯВКУ</h2>
-                        <p class="request__info">Оставьте свои контакты. Менеджер перезвонит
-                            в удобное вам время и ответит на все вопросы.</p>
-                        <input type="text" placeholder="Введите имя" class="request__name">
-                        <input type="text" placeholder="Введите телефон" class="request__phone">
-                        <button class="text request__button">Оставить заявку</button>
-                    </form>
-                </div>
-                <div>
-                    <img src="img/map.png" alt="Место находение офиса." class="request__map">
+                <div class="request__block">
+                    <div class="request__div">
+                        <form action="#" class="form__request">
+                            <h2 class="request__cation">ОСТАВИТЬ ЗАЯВКУ</h2>
+                            <p class="request__info">Оставьте свои контакты. Менеджер перезвонит<br>
+                                в удобное вам время и ответит на все вопросы.</p>
+                            <input type="text" placeholder="Введите имя" class="request__name">
+                            <input type="text" placeholder="Введите телефон" class="request__phone">
+                            <button class="request__button">Оставить заявку</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img src="img/map.png" alt="Место находение офиса." class="request__map">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="wrapper">
-            <p class="text footer__phone">+7 (981) 857-46-24</p>
-            <p class="text footer__adress">г. Санкт-Петербург, ул. Большая Конюшенная, 19</p>
-            <p class="text footer__IP">ИП Королева А.А.</p>
+            <div class="footer__block">
+                <p class="footer__phone">+7 (981) 857-46-24</p>
+                <p class="footer__adress">г. Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+                <p class="footer__IP">ИП Королева А.А.</p>
+            </div>
         </div>
     </footer>
     
